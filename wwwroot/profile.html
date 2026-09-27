@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMJK - Profil</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="profile">
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-badge">IMJK</div>
+          <nav>
+            <a href="/index.html">Entdecken</a>
+            <a href="/index.html">Top Filme</a>
+            <a href="/add-movie.html">Film hinzufügen</a>
+          </nav>
+        </div>
+
+        <div class="search-area">
+          <input type="text" placeholder="Film, Regisseur, Genre, Schauspieler..." />
+          <button>Suche</button>
+        </div>
+
+        <div class="user-area">
+          <button id="settingsBtn" class="icon-btn" aria-label="Einstellungen">⚙</button>
+          <span id="userBadge" class="user-badge hidden">Gast</span>
+          <button id="loginBtn" class="primary">Login</button>
+          <button id="registerBtn" class="secondary">Registrieren</button>
+          <button id="logoutBtn" class="ghost hidden">Abmelden</button>
+        </div>
+      </header>
+
+      <main class="profile-shell">
+        <h1>Profil bearbeiten</h1>
+
+        <div class="profile-panel">
+          <form id="profileForm" class="profile-form">
+            <label>
+              Benutzername
+              <input id="profileUsername" type="text" placeholder="Benutzername" required />
+            </label>
+            <label>
+              Lieblingsgenres
+              <input id="profileGenres" type="text" placeholder="Sci-Fi, Drama, Thriller" />
+            </label>
+            <button type="submit" class="primary-btn">Profil speichern</button>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <div id="loginModal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Login</h3>
+        <form id="loginForm">
+          <input id="loginUsername" type="text" placeholder="Benutzername" required />
+          <input id="loginPassword" type="password" placeholder="Passwort" required />
+          <button type="submit">Einloggen</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="registerModal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Account erstellen</h3>
+        <form id="registerForm">
+          <input id="registerUsername" type="text" placeholder="Benutzername" required />
+          <input id="registerPassword" type="password" placeholder="Passwort" required />
+          <input id="favoriteGenres" type="text" placeholder="Lieblingsgenres, z. B. Sci-Fi,Drama" />
+          <button type="submit">Registrieren</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

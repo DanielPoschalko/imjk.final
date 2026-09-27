@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/add-movie.html",
+      "PackagePath": "staticwebassets/add-movie.html"
+    },
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/detail.html",
+      "PackagePath": "staticwebassets/detail.html"
+    },
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/profile.html",
+      "PackagePath": "staticwebassets/profile.html"
+    },
+    {
+      "Id": "/Users/danielposchalko/Desktop/Git/FahrradVerleih-/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FahrradVerleih-.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FahrradVerleih-.props",
+      "PackagePath": "build\\FahrradVerleih-.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FahrradVerleih-.props",
+      "PackagePath": "buildMultiTargeting\\FahrradVerleih-.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FahrradVerleih-.props",
+      "PackagePath": "buildTransitive\\FahrradVerleih-.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
