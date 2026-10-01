@@ -1,0 +1,4 @@
+bin/
+obj/
+app-data/
+.DS_Store
