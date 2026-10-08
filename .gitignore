@@ -1,4 +1,9 @@
+# Build outputs
 bin/
 obj/
+
+# Local application data
 app-data/
+
+# macOS
 .DS_Store
